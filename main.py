@@ -1,4 +1,3 @@
-
 def menu():
     print("Selecciona una opción:")
     print("1. Suma")
@@ -10,7 +9,6 @@ def menu():
 def leerValor(msg):
     val = float(input(msg))
     return val
-
 
 if __name__ == "__main__":
     exit = False
